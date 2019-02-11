@@ -1,0 +1,34 @@
+{
+  "name": "superagendador-test",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1",
+    "react-redux": "^6.0.0",
+    "react-scripts": "2.1.3",
+    "redux": "^4.0.1",
+    "redux-logger": "^3.0.6",
+    "redux-saga": "^1.0.1",
+    "reduxsauce": "^1.0.1",
+    "sass": "^1.17.0"
+  },
+  "scripts": {
+    "start": "yarn sass:build && react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "sass": "sass --no-source-map --watch src/Styles/scss:src/Styles/css",
+    "sass:build": "sass --no-source-map --update src/Styles/scss:src/Styles/css "
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
